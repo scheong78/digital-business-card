@@ -1,0 +1,112 @@
+body {
+  font-family: Inter;
+}
+
+.card--wrapper {
+  background: #1A1B21;
+  border-radius: 10px;
+  max-width: 320px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card--img {
+  width: 100%;
+}
+
+.card--body {
+  color: #F5F5F5;
+  padding: 20px 35px;
+}
+
+/* ### INFO ### */
+.info {
+  /* color: #F5F5F5; */
+  margin-bottom: 30px;
+}
+
+.info--name {
+  color: #FFF;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 5px;
+}
+
+.info--profession {
+  color: #F3BF99;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 0 5px;
+}
+
+.info--website {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.info--cta--wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info--cta {
+  width: 100%;
+  max-width: 100px;
+  padding: 9px;
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info--cta-icon {
+  margin-right: 5px;
+}
+
+.info--cta-email {border-radius: 6px;
+  border: 1px solid var(--gray-300, #D1D5DB);
+  background: var(--white, #FFF);
+  color: #374151;
+  
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.info--cta-linkedin {
+  border-radius: 6px;
+  background: #5093E2;
+  color: #fff;
+
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* ### ABOUT, INTERESTS ### */
+.about--heading, .interests--heading {
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  margin: 0 0 5px;
+}
+
+.about--body, .interests--body {
+  color: #DCDCDC;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+}
+
+/* ### FOOTER ### */
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
